@@ -45,8 +45,6 @@ public class SearchLocators {
         open("https://alfabank.ru/make-money/");
         $("[data-test-id='tabs-list-tabTitle-2']").preceding(1).click();
         $("body").shouldHave(text("Альфа-Банк является участником системы обязательного страхования вкладов"));
-
-        sleep(3000);
     }
 
     @DisplayName("Поиск closest")
@@ -57,7 +55,6 @@ public class SearchLocators {
         open("https://alfabank.ru/make-money/");
         $("[data-test-id='tabs-list-tabTitle-2']").closest(".aw_H28R Jw_H28R kw_H28R").click();
         $("body").shouldHave(text("Альфа-Банк является участником системы обязательного страхования вкладов"));
-        sleep(3000);
     }
 
 }
