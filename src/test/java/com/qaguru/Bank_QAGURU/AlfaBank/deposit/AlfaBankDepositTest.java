@@ -1,4 +1,4 @@
-package com.qaguru.Bank_QAGURU.AlfaBank;
+package com.qaguru.Bank_QAGURU.AlfaBank.deposit;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
